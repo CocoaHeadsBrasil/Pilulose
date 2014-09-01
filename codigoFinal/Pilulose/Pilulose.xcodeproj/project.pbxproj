@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E00816619AEC65F00327D8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E00816519AEC65F00327D8B /* main.m */; };
+		5E00816919AEC65F00327D8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E00816819AEC65F00327D8B /* AppDelegate.m */; };
+		5E00817D19AEC65F00327D8B /* PiluloseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E00817C19AEC65F00327D8B /* PiluloseTests.m */; };
+		5E00818919AEC68500327D8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E00818619AEC68500327D8B /* Main.storyboard */; };
+		5E00818A19AEC68500327D8B /* MorpheusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E00818819AEC68500327D8B /* MorpheusViewController.m */; };
+		5E00818C19AEC6A600327D8B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E00818B19AEC6A600327D8B /* Images.xcassets */; };
+		5E00818F19AEC73C00327D8B /* EscolhaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E00818E19AEC73C00327D8B /* EscolhaViewController.m */; };
+		5E00819119AED00D00327D8B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E00819019AED00D00327D8B /* AVFoundation.framework */; };
+		5E00819419AED45F00327D8B /* morpheus.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5E00819319AED45F00327D8B /* morpheus.m4a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E00817719AEC65F00327D8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E00815819AEC65F00327D8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E00815F19AEC65F00327D8B;
+			remoteInfo = Pilulose;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E00816019AEC65F00327D8B /* Pilulose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pilulose.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E00816419AEC65F00327D8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E00816519AEC65F00327D8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E00816719AEC65F00327D8B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5E00816819AEC65F00327D8B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5E00817619AEC65F00327D8B /* PiluloseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiluloseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E00817B19AEC65F00327D8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E00817C19AEC65F00327D8B /* PiluloseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PiluloseTests.m; sourceTree = "<group>"; };
+		5E00818619AEC68500327D8B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5E00818719AEC68500327D8B /* MorpheusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MorpheusViewController.h; sourceTree = "<group>"; };
+		5E00818819AEC68500327D8B /* MorpheusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MorpheusViewController.m; sourceTree = "<group>"; };
+		5E00818B19AEC6A600327D8B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5E00818D19AEC73C00327D8B /* EscolhaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EscolhaViewController.h; sourceTree = "<group>"; };
+		5E00818E19AEC73C00327D8B /* EscolhaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EscolhaViewController.m; sourceTree = "<group>"; };
+		5E00819019AED00D00327D8B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5E00819319AED45F00327D8B /* morpheus.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = morpheus.m4a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E00815D19AEC65F00327D8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E00819119AED00D00327D8B /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E00817319AEC65F00327D8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E00815719AEC65F00327D8B = {
+			isa = PBXGroup;
+			children = (
+				5E00816219AEC65F00327D8B /* Pilulose */,
+				5E00816319AEC65F00327D8B /* Supporting Files */,
+				5E00817919AEC65F00327D8B /* PiluloseTests */,
+				5E00819219AED02100327D8B /* Frameworks */,
+				5E00816119AEC65F00327D8B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E00816119AEC65F00327D8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E00816019AEC65F00327D8B /* Pilulose.app */,
+				5E00817619AEC65F00327D8B /* PiluloseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E00816219AEC65F00327D8B /* Pilulose */ = {
+			isa = PBXGroup;
+			children = (
+				5E00818619AEC68500327D8B /* Main.storyboard */,
+				5E00818719AEC68500327D8B /* MorpheusViewController.h */,
+				5E00818819AEC68500327D8B /* MorpheusViewController.m */,
+				5E00818D19AEC73C00327D8B /* EscolhaViewController.h */,
+				5E00818E19AEC73C00327D8B /* EscolhaViewController.m */,
+			);
+			path = Pilulose;
+			sourceTree = "<group>";
+		};
+		5E00816319AEC65F00327D8B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E00819519AED7E300327D8B /* Audio */,
+				5E00818B19AEC6A600327D8B /* Images.xcassets */,
+				5E00816719AEC65F00327D8B /* AppDelegate.h */,
+				5E00816819AEC65F00327D8B /* AppDelegate.m */,
+				5E00816419AEC65F00327D8B /* Info.plist */,
+				5E00816519AEC65F00327D8B /* main.m */,
+			);
+			name = "Supporting Files";
+			path = Pilulose;
+			sourceTree = "<group>";
+		};
+		5E00817919AEC65F00327D8B /* PiluloseTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E00817C19AEC65F00327D8B /* PiluloseTests.m */,
+				5E00817A19AEC65F00327D8B /* Supporting Files */,
+			);
+			path = PiluloseTests;
+			sourceTree = "<group>";
+		};
+		5E00817A19AEC65F00327D8B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E00817B19AEC65F00327D8B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E00819219AED02100327D8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E00819019AED00D00327D8B /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E00819519AED7E300327D8B /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				5E00819319AED45F00327D8B /* morpheus.m4a */,
+			);
+			name = Audio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E00815F19AEC65F00327D8B /* Pilulose */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E00818019AEC65F00327D8B /* Build configuration list for PBXNativeTarget "Pilulose" */;
+			buildPhases = (
+				5E00815C19AEC65F00327D8B /* Sources */,
+				5E00815D19AEC65F00327D8B /* Frameworks */,
+				5E00815E19AEC65F00327D8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pilulose;
+			productName = Pilulose;
+			productReference = 5E00816019AEC65F00327D8B /* Pilulose.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E00817519AEC65F00327D8B /* PiluloseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E00818319AEC65F00327D8B /* Build configuration list for PBXNativeTarget "PiluloseTests" */;
+			buildPhases = (
+				5E00817219AEC65F00327D8B /* Sources */,
+				5E00817319AEC65F00327D8B /* Frameworks */,
+				5E00817419AEC65F00327D8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E00817819AEC65F00327D8B /* PBXTargetDependency */,
+			);
+			name = PiluloseTests;
+			productName = PiluloseTests;
+			productReference = 5E00817619AEC65F00327D8B /* PiluloseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E00815819AEC65F00327D8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "CocoaHeads Brasil";
+				TargetAttributes = {
+					5E00815F19AEC65F00327D8B = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					5E00817519AEC65F00327D8B = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 5E00815F19AEC65F00327D8B;
+					};
+				};
+			};
+			buildConfigurationList = 5E00815B19AEC65F00327D8B /* Build configuration list for PBXProject "Pilulose" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E00815719AEC65F00327D8B;
+			productRefGroup = 5E00816119AEC65F00327D8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E00815F19AEC65F00327D8B /* Pilulose */,
+				5E00817519AEC65F00327D8B /* PiluloseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E00815E19AEC65F00327D8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E00818919AEC68500327D8B /* Main.storyboard in Resources */,
+				5E00819419AED45F00327D8B /* morpheus.m4a in Resources */,
+				5E00818C19AEC6A600327D8B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E00817419AEC65F00327D8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E00815C19AEC65F00327D8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E00818F19AEC73C00327D8B /* EscolhaViewController.m in Sources */,
+				5E00816919AEC65F00327D8B /* AppDelegate.m in Sources */,
+				5E00818A19AEC68500327D8B /* MorpheusViewController.m in Sources */,
+				5E00816619AEC65F00327D8B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E00817219AEC65F00327D8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E00817D19AEC65F00327D8B /* PiluloseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E00817819AEC65F00327D8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E00815F19AEC65F00327D8B /* Pilulose */;
+			targetProxy = 5E00817719AEC65F00327D8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5E00817E19AEC65F00327D8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E00817F19AEC65F00327D8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E00818119AEC65F00327D8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Pilulose/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5E00818219AEC65F00327D8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Pilulose/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5E00818419AEC65F00327D8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PiluloseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pilulose.app/Pilulose";
+			};
+			name = Debug;
+		};
+		5E00818519AEC65F00327D8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PiluloseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pilulose.app/Pilulose";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E00815B19AEC65F00327D8B /* Build configuration list for PBXProject "Pilulose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E00817E19AEC65F00327D8B /* Debug */,
+				5E00817F19AEC65F00327D8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E00818019AEC65F00327D8B /* Build configuration list for PBXNativeTarget "Pilulose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E00818119AEC65F00327D8B /* Debug */,
+				5E00818219AEC65F00327D8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5E00818319AEC65F00327D8B /* Build configuration list for PBXNativeTarget "PiluloseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E00818419AEC65F00327D8B /* Debug */,
+				5E00818519AEC65F00327D8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E00815819AEC65F00327D8B /* Project object */;
+}
